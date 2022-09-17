@@ -26,7 +26,7 @@ int main() {
             cout << "Poprawny PIN";
             cout << "\n" << "podaj ile pieniedzy chcesz wyplacic:";
             cin >> pieniadze;
-            cout << "\n" << "zostanie ci wyplacone:" << pieniadze << "PLN";
+            cout << "\n" << "zostanie ci wyplacone:" << pieniadze << ",00" << "PLN";
             cout << "\n" << "zabierz karte z bankomatu";
         }
         else
